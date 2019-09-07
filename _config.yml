@@ -26,11 +26,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
-theme: jekyll-theme-slate 
-=======
 theme: jekyll-theme-slate
->>>>>>> 696e397b8937b5295ec26112d01518123ac1326b
 plugins:
   - jekyll-feed
 
