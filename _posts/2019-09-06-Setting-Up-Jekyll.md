@@ -1,3 +1,0 @@
-Hello!
-
-This is one of many tests, all previous ones have failed so far...
