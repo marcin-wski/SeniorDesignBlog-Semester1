@@ -19,8 +19,12 @@ First of all let's actually download Prometheus tarball so we can install it:
 Now we just need to un-tar this and... we're more or less done. We can now start running Prometheus monitoring server with a simple `./prometheus --config.file=prometheus.yml` and best part? You don't even have to modify anything in the configuration file at the beginning. It just works and this is what we'll see:
 ![PrometheusRunning](lab2-1.png)
 
+
+
 If we open localhost:9090, where Promethous runs by default we will see a simple entry for an expression or query we want to monitor:
 ![PrometheusExpressionBox](lab2-2.png)
+
+
 
 Let's add a simple monitoring graph so we can 100% confirm everything work the way we need it to work
 `rate(promhttp_metric_handler_requests_total{code=”200”} [1m]`
@@ -28,10 +32,13 @@ Let's add a simple monitoring graph so we can 100% confirm everything work the w
 If we now reload the page with that expression added we will actually see it being monitored already:
 ![PrometheusMonitoringGraph](lab2-3.png)
 
+
 ## The Node_Exporter part
 
 The Prometheus Node Exporter exposes a wide variety of hardware and kernel related metrics, and we can download it from [Node_Exporter site](https://prometheus.io/download/#node_exporter) or with wget from the terminal. As soon as we have it download and un-tarred we can run it with `./node_exporter` and it will run alongside Prometheus on port 9100, just like that:
 ![NodeExporterRunning](lab2-4.png)
+
+
 
 Now it's time to quickly modify Prometheus' config file's "scrape_config" part with:
 Scrape_configs:
@@ -41,6 +48,7 @@ Scrape_configs:
   
 After modifying this configuration file all we need is opening the monitoring page on localhost:9090 (yes, Prometheus needs to be still running on your server throughout all this) and in the expression input box we need to add "node_cpu_seconds_total" and switch to the graph view. Depending on the number of CPUs you have currently available it should look more or less like this:
 ![PrometheusMonitoringCPUs](lab2-5.png)
+
 
 ## Additional resources
 [Prometheus Docs](https://prometheus.io/docs/introduction/overview/)
