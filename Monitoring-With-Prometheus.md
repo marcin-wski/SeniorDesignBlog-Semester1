@@ -24,7 +24,7 @@ Now we just need to un-tar this and... we're more or less done. We can now start
 ![PrometheusRunning](lab2-1.png)
 
 &nbsp;
-&nbsp;
+
 
 If we open localhost:9090, where Promethous runs by default we will see a simple entry for an expression or query we want to monitor:
 
@@ -32,8 +32,7 @@ If we open localhost:9090, where Promethous runs by default we will see a simple
 ![PrometheusExpressionBox](lab2-2.png)
 
 &nbsp;
-&nbsp;
-&nbsp;
+
 
 Let's add a simple monitoring graph so we can 100% confirm everything work the way we need it to work
 `rate(promhttp_metric_handler_requests_total{code=”200”} [1m]`
@@ -53,7 +52,7 @@ The Prometheus Node Exporter exposes a wide variety of hardware and kernel relat
 ![NodeExporterRunning](lab2-4.png)
 
 &nbsp;
-&nbsp;
+
 
 Now it's time to quickly modify Prometheus' config file's "scrape_config" part with:
 Scrape_configs:
@@ -62,6 +61,7 @@ Scrape_configs:
   - Targets: [‘localhost:9100’]
 
 After modifying this configuration file all we need is opening the monitoring page on localhost:9090 (yes, Prometheus needs to be still running on your server throughout all this) and in the expression input box we need to add "node_cpu_seconds_total" and switch to the graph view. Depending on the number of CPUs you have currently available it should look more or less like this:
+
 &nbsp;
 ![PrometheusMonitoringCPUs](lab2-5.png)
 
