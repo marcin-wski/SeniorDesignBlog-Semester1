@@ -61,8 +61,9 @@ Scrape_configs:
   - Targets: [‘localhost:9100’]
 
 After modifying this configuration file all we need is opening the monitoring page on localhost:9090 (yes, Prometheus needs to be still running on your server throughout all this) and in the expression input box we need to add "node_cpu_seconds_total" and switch to the graph view. Depending on the number of CPUs you have currently available it should look more or less like this:
-
 &nbsp;
+
+
 ![PrometheusMonitoringCPUs](lab2-5.png)
 
 ## Additional resources
