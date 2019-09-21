@@ -22,6 +22,7 @@ Additionally, Ansible makes it possible for us to install multiple files in one 
 ![ItemsInstalled](blog3.png)
 
 Ansible provides you with a way to create users, groups, whole configuration files, to install or remove software, to change network and firewalls. It is a complete package and can change your life and your infrastructure with a snap of a finger. The only major problem I ran into over the course of 30 hours I spent on this assignment was the indentation. Let's take a look at the beginning of the file:
+
 ![BeginningOfConfig](blog4.png)
 
 It starts on the left side, and then using spaces (NO TABS) you move the next line 2 spaces in, and then allign each "-" the same way, and all other text is again indented 2 spaces in. Several tests have failed just because of this, and it took me quite a while to figure out how to do this the proper way.
@@ -33,4 +34,5 @@ You can run the playbook by simply doing: `ansible-playbook playbook.yml` or you
 
 ## Additional resources
 [Intro to playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
+
 [Roles in playbooks](https://ansible-docs.readthedocs.io/zh/stable-2.0/rst/playbooks_roles.html)
