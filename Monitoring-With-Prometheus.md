@@ -4,13 +4,13 @@
 Prometheus is an open-source systems monitoring and alerting toolkit created in 2012. It is now a standalone open source project and maintained independently of any company. To emphasize this, and to clarify the project's governance structure, Prometheus joined the Cloud Native Computing Foundation in 2016 as the second hosted project, after Kubernetes.
 
 Prometheus's main features are:
-..*a multi-dimensional data model with time series data identified by metric name and key/value pairs
-..*PromQL, a flexible query language to leverage this dimensionality
-..*no reliance on distributed storage; single server nodes are autonomous
-..*time series collection happens via a pull model over HTTP
-..*pushing time series is supported via an intermediary gateway
-..*targets are discovered via service discovery or static configuration
-..*multiple modes of graphing and dashboarding support
+  - a multi-dimensional data model with time series data identified by metric name and key/value pairs
+  - PromQL, a flexible query language to leverage this dimensionality
+  - no reliance on distributed storage; single server nodes are autonomous
+  - time series collection happens via a pull model over HTTP
+  - pushing time series is supported via an intermediary gateway
+  - targets are discovered via service discovery or static configuration
+  - multiple modes of graphing and dashboarding support
 
 ## Starting with Prometheus
 
