@@ -1,4 +1,4 @@
-# What Is Ansible?
+# What Is AWS?
 
 Let's start by saying that AWS is no the American Welding Society but rather the Amazon Web Services. There's nothing wrong with the welders, but in this particular scenario we will be focusing on the Cloud.
 
