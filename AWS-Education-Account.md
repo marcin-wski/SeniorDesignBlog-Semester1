@@ -12,8 +12,6 @@ Perfect! I don't want to pay either! AWS understands that and provides us, poor 
 
 Follow the instructions to fill out all the right boxes, scroll through their Terms of Agreement (yeah, you actually have to scroll down to the end, they won't let you blindly accept it), and submit it. At the end you'll see this and now you'll have to anxiously wait for an email from AWS either approving or denying your request for the student account:
 
-![ThankYou](blog5.png)
-
 ## What do you get from it?
 
 ### Credits
