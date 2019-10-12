@@ -38,7 +38,7 @@ Once you either see your website or see the right IP with nslookup, you know tha
 
 If that is not the case, check if you're using the right IP in the A record and if all other records are correct.
 
-## What's next?
+# What's next?
 
 With regards to the DNS? Nothing. We're done for the moment.
 Now is the time to help your team with any problems they might be having. It's also the time to start thinking about Elastic IPs, Elastic Load Balancers, and making it easier for the person in charge of EC2 instances to make sure the site is always up.
