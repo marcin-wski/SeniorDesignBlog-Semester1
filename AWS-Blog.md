@@ -3,6 +3,7 @@
 Firstly, I'm assuming you already have an AWS account and can log in to AWS Managment Console.
 
 Now, my part in the project was the DNS for our project - Downtime R US -> [downtimerus.net](downtimerus.net)
+
 AWS deals with DNS with their Route 53, which essentially doesn't really differ from a Windows DNS. With my background mainly in Linux and with Linux DNS this was a certain challenge at first, but Route 53 is pretty idiot-proof so pretty quickly even I got a hang of it.
 
 # Domains
