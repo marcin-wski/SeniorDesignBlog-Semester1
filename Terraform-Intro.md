@@ -27,7 +27,7 @@ Terraform builds a graph of all your resources, and parallelizes the creation an
 
 Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.
 
-Some of the other features, just point by point are:
+## Some of the other features, just point by point are:
 - Friendly custom syntax, but also has support for JSON.
 - Visibility into changes before they actually happen.
 - Built-in graphing feature to visualize the infrastructure.
