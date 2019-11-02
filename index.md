@@ -7,3 +7,4 @@
 5. [AWS-Education-Account](https://marcin-wski.github.io/SeniorDesignBlog/AWS-Education-Account)
 6. [Setting-Up-DNS](https://marcin-wski.github.io/SeniorDesignBlog/Setting-Up-DNS)
 7. [Terraform-Intro](https://marcin-wski.github.io/SeniorDesignBlog/Terraform-Intro)
+8. [Load-Balancers-With-Terraform](https://marcin-wski.github.io/SeniorDesignBlog/Load-Balancers-With-Terraform)
