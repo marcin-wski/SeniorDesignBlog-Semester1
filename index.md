@@ -6,3 +6,4 @@
 4. [Monitoring-With-Prometheus](https://marcin-wski.github.io/SeniorDesignBlog/Monitoring-With-Prometheus)
 5. [AWS-Education-Account](https://marcin-wski.github.io/SeniorDesignBlog/AWS-Education-Account)
 6. [Setting-Up-DNS](https://marcin-wski.github.io/SeniorDesignBlog/Setting-Up-DNS)
+7. [Terraform-Intro](https://marcin-wski.github.io/SeniorDesignBlog/Terraform-Intro)
