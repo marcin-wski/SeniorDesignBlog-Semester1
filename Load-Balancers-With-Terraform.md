@@ -1,8 +1,8 @@
-#What is Terraform?
+# What is Terraform?
 
 For the more detailed answer, please see the previous blog (blog7) for [What is Terraform?](https://marcin-wski.github.io/SeniorDesignBlog/Terraform-Intro) It will provide the basic understanding of what Terraform is, what features does it include, and just how is it connected to AWS.
 
-#Detailed Application Load Balancer
+# Detailed Application Load Balancer
 
 Let's first just have a look at the detailed diagram of all the moving parts. Some of there were not present in its predecessor, the ELB (or the "classic" load balancer)
 
@@ -81,3 +81,11 @@ resource "aws_elb" "bar" {
   }
 }
 ```
+
+# What's next?
+
+Well, now we choose which Load Balanacer will work better for us long term, we write the actual code where ${aws_instance.foo.id} is actually our instance ID, we test it and deploy it... and we're almost done here.
+
+Classic load balancer looks a lot more appealing right now...
+
+Stay tuned and we'll see just which one will be in use at the end.
