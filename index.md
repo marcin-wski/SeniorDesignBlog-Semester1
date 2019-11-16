@@ -8,3 +8,5 @@
 6. [Setting-Up-DNS](https://marcin-wski.github.io/SeniorDesignBlog/Setting-Up-DNS)
 7. [Terraform-Intro](https://marcin-wski.github.io/SeniorDesignBlog/Terraform-Intro)
 8. [Load-Balancers-With-Terraform](https://marcin-wski.github.io/SeniorDesignBlog/Load-Balancers-With-Terraform)
+9. Currently empty, skipping over
+10. [Using-Git-With-Command-Line.md](https://marcin-wski.github.io/SeniorDesignBlog/Using-Git-With-Command-Line)
