@@ -10,3 +10,5 @@
 8. [Load-Balancers-With-Terraform](https://marcin-wski.github.io/SeniorDesignBlog/Load-Balancers-With-Terraform)
 9. Currently empty, skipping over
 10. [Using-Git-With-Command-Line.md](https://marcin-wski.github.io/SeniorDesignBlog/Using-Git-With-Command-Line)
+11. Currently empty, this shall be rectified later
+12. [Amazon-Elastic-Container-Service.md](https://marcin-wski.github.io/SeniorDesignBlog/Amazon-Elastic-Container-Service)
